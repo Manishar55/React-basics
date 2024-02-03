@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlimpseOfJsx</title>
+</head>
+<body>
+    
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+       
+    
+
+    <!-- we dont have to write plain js like this to create ui elements, you can write new syntax 
+    which is very much same as writing html -->
+
+    <!-- you can write plain html inside js -->
+
+    <!-- babel is a transpiler, it is going to convertt our jsx which is not understandable by browser
+    browser only understand html css js -->
+    <script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script> <!-- babel script-->
+    <script type="text/babel">
+
+         const App = () => {
+            return (
+                <div>
+                    <h1>Welcome to reacttt</h1>
+                    <button>click</button>
+                </div>)
+        }
+        const rootNode=document.getElementById("root");
+        const root= ReactDOM.createRoot(rootNode);
+        
+        root.render(<App/>);
+        
+    </script>
+
+
+
+</body>
+</html>
