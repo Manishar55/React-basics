@@ -24,11 +24,20 @@
     <script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script> <!-- babel script-->
     <script type="text/babel">
 
+        const Custom = () => {
+            return (
+                <div>
+                    <h1>hello</h1>
+                    <button>hello</button>
+                </div>)
+        }
          const App = () => {
             return (
                 <div>
                     <h1>Welcome to reacttt</h1>
                     <button>click</button>
+                    <Custom/>
+                    <Custom/> //reusable elements
                 </div>)
         }
         const rootNode=document.getElementById("root");
