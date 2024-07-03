@@ -13,7 +13,7 @@
 //7. deleted everything from index.js except these:
 
 // import React from 'react';
-// import ReactDOM from 'react-dom/client';
+// import ReactDOM from 'react-dom/client'; 
 // import App from './App';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -34,3 +34,23 @@
 //   }
   
 //   export default App;
+
+
+
+///for vite project
+
+//
+
+
+
+
+//React component: react component is nothing but a plain js file 
+//react components help you to combine your html css and js logic together in one reusable piece of code
+
+//to prepare this reusable code you can either you js functions(functional components) or js classes(class based components)
+
+
+
+
+
+
