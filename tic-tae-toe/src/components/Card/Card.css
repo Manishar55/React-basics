@@ -1,13 +1,24 @@
 
 .card{
-    border: 1px solid black;
+    /* border: 1px solid rgb(255, 252, 252); */
     padding: '2rem';
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 120px;
     height: 120px;
-    border-radius: 10%;
-    background-color: var(--yellow);
+    background: #90bed3;
+    box-shadow: inset 0px -8px 0px #4a6c80;
+    border-radius: 15px;
+
     flex-basis: 30%;
 }
+/* 
+align-items: center;
+width: 120px;
+height: 120px;
+background: #35515e;
+box-shadow: inset 0px -8px 0px #0b1b23;
+border-radius: 15px;
+flex-basis: 30%; */
