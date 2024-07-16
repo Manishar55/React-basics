@@ -1,0 +1,9 @@
+
+.grid{
+    display: flex;
+    gap: 1rem;
+    height: 500pxpx;
+    width: 500px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}

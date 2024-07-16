@@ -1,0 +1,6 @@
+.todo-done{
+    color: blueviolet;
+}
+.todo-notdone{
+    text-decoration: wavy;
+}
